@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Bismilleh;
+    src: url(fonts/Bismillah\ Script.ttf);
+}
+
+.standard-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00cc66;
+    border: 1px solid #009900;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 25px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.standard-button:hover {
+    background-color: #009900;
+}
+
+div.container {
+    margin: auto;
+    border: solid 2px #009900;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header, nav, footer {
+	background-color: #009900;
+	border: solid 1px #009900;
+    text-align: center;
+    color:white;
+}
+
+h1{
+    font-family: Bismilleh;
+    font-size: xx-large;
+    text-align: center;
+}
+main{
+    margin-bottom: 5px;
+}
+
+div.product-list {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+div.product-item {
+    border: 1px solid #00cc66;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.product-image img {
+    max-width: 150px;
+}
+
+div.product-name {
+    margin: 15px 0;
+    text-align: center;
+    font-family: Bismilleh;
+    font-size: xx-large;
+}
+
+a:link {
+    text-decoration: none;
+    color: #D0F0C0;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #D0F0C0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+div.flexProdView{
+    display: flex;
+    justify-content: center;
+}
+
+div.imageProd{
+
+}
+
+div.infoProd{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+table, th, td {
+    border-bottom: 2px solid #D0F0C0;;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; 
+    padding: 15px;
+}
+
+.smallimg img {
+    height: 100px;
+    width: 100px;
+}
+
+.center{
+    text-align: center;
+}
+    
+
+    
